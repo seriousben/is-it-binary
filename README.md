@@ -11,3 +11,7 @@ Using git way to check if a file is binary.
 
 Using git's heuristics to detect a binary file. 
 See https://git.kernel.org/pub/scm/git/git.git/tree/xdiff-interface.c?id=7668cbc60578f99a4c048f8f8f38787930b8147b#n201 for details.
+
+## Install
+
+`go get -u github.com/seriousben/is-it-binary`
