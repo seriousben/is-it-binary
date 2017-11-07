@@ -7,7 +7,7 @@ import (
 
 // IsBinaryBuffer checks if the buffer refers to binary data or not
 func IsBinaryBuffer(buf []byte) (bool, error) {
-	return bytes.Index(buf, []byte("\x00")) != -1, nil
+	return bytes.Contains(buf, []byte("\x00")), nil
 }
 
 // IsBinaryFile checks if the file contains binary data or not
